@@ -1,0 +1,240 @@
+@media (max-width: 480px) {
+  // ==================== Global ====================
+  h1 {
+    font-size: 0.5 * $h1;
+  }
+  h2 {
+    font-size: 0.6 * $h2;
+  }
+  // h3 {
+  //   font-size: $h3;
+  // }
+  // h4 {
+  //   font-size: $h4;
+  // }
+  // h5 {
+  //   font-size: $h5;
+  // }
+
+
+
+  // ==================== layout ====================
+
+  body {
+    header {
+      section.top {
+        div.container {
+          div.row {
+            div.logo {
+              a {
+                width: 40%;
+              }
+            }
+          }
+        }
+      }
+
+      section.menu {
+        div.container {
+          div.burger {
+            margin: 120px 25% 0;
+            width: 50%;
+
+            button, a {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+
+  // ==================== index ====================
+  main {
+
+    section.slides {
+      padding: 25px 0;
+      div.container {
+        div.slide {
+          div.carousel-inner {
+            div.item {
+              img {
+                width: 100%;
+                height: 300px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    section.links {
+
+      div.container {
+        a {
+          font-size: 0.6 * $h4;
+        }
+        div.row {
+          display: inline;
+
+          div.col {
+            margin: 0 0 20px;
+            text-align: center;
+
+            &:last-of-type {
+              margin: 0;
+            }
+            div.inner {
+              padding: 20px 20px 0;
+              width: 80%;
+              margin: 0 10%;
+
+              a.btn {
+                font-size: 0.6 * $btn-1;
+              }
+
+              span.socmed {
+                margin-top: 3px;
+
+                a {
+                  margin: 0 3px;
+                  font-size: 0.6 * $font-link-socmed;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    section.featured_collections {
+      div.container {
+        div.row {
+          div.title {
+            display: block;
+
+            div.decor {
+              width: 90%;
+              margin: 0 5%;
+            }
+          }
+        }
+      }
+    }
+
+    section.featured_products {
+      div.container {
+        div.row {
+          div.title {
+            div.decor {
+              width: 90%;
+              margin: 0 5%;
+            }
+          }
+
+          div.col {
+            a {
+              div.panel {
+                div.panel-heading {
+                  height: 1.5 * $panel-heading;
+                }
+
+                div.panel-body {
+                  h3 {
+                    height: 75px;
+                  }
+
+                  p {
+                    height: 90px;
+                    font-size: 0.8 $p-3;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        a.btn-more {
+          width: 90%;
+          margin: 0 5% 37px;
+          font-size: 0.6 * $btn-1;
+        }
+      }
+    }
+
+    section.featured_content {
+      div.content {
+        div.container {
+          div.row {
+            div.col {
+              div.title {
+                h1 {}
+
+                div.decor {}
+              }
+
+              p {}
+
+              a.more {
+                width: 80%;
+                font-size: 0.8 * $btn-2;
+              }
+
+            }
+
+            img {
+              display: none;
+            }
+          }
+        }
+      }
+
+      div.family {}
+
+      div.sign-up {
+        div.container {
+          div.row {
+            div.col {
+              div.box {
+                div.sign-content {
+                  h1 {}
+
+                  div.newsletter {
+                    font-size: 0.6 * $btn-2;
+                    input {
+                      &:focus {}
+                    }
+
+                    button {}
+                  }
+                }
+
+                div.decor {}
+              }
+            }
+
+            div.right {
+              p {
+                font-size: 12px;
+
+
+                a {
+                  margin: 0 5px 0 0;
+
+                  i {
+                    margin: 0 5px 0 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

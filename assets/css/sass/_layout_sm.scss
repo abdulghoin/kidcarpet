@@ -1,0 +1,217 @@
+@media (max-width: 991px) {
+    // ==================== Global ====================
+    h1 {
+      font-size: 0.9 * $h1;
+    }
+    h2 {
+      font-size: 0.55 * $h2;
+    }
+    // h3 {
+    //   font-size: $h3;
+    // }
+    // h4 {
+    //   font-size: $h4;
+    // }
+    // h5 {
+    //   font-size: $h5;
+    // }
+
+    // ==================== Layout ====================
+    body {
+      header {
+        section.top {
+          font-size: 0.6 * $font-header-top;
+
+          div.container {
+            div.row {
+              div.col {
+                ul {
+                  li {
+                    padding: 2px 4px;
+
+                    i, span {
+                      margin: 0 2px 0 0;
+                    }
+
+                    p {
+                      a {
+                        i {
+                          margin: 0 0 0 2px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        section.menu {
+          font-size: 0.5 * $font-header;
+
+          ul {
+            li {
+              a {
+                padding: 30px 14px;
+                display: block;
+              }
+            }
+
+            form {
+              input {}
+            }
+          }
+        }
+      }
+    }
+
+
+    // ==================== index ====================
+    main {
+
+      section.slides {
+        padding: 25px 0;
+        div.container {
+          div.slide {
+            div.carousel-inner {
+              div.item {
+                img {
+                  width: 100%;
+                  height: 550px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      section.links {
+
+        div.container {
+          div.row {
+
+            div.col {
+              div.inner {
+                padding: 20px 20px 0;
+
+                a.btn {
+                  font-size: 0.5 * $btn-1;
+                }
+
+                span.socmed {
+                  margin-top: 3px;
+
+                  a {
+                    margin: 0 3px;
+                    font-size: 0.5 * $font-link-socmed;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      section.featured_collections {
+        div.container {
+          div.row {
+            div.title {
+              div.decor {
+                width: 70%;
+                margin: 0 15%;
+              }
+            }
+          }
+        }
+      }
+
+      section.featured_products {
+        div.container {
+          div.row {
+            div.title {
+              div.decor {
+                width: 70%;
+                margin: 0 15%;
+              }
+            }
+          }
+
+          a.btn-more {
+            width: 50%;
+            margin: 0 25% 37px;
+          }
+        }
+      }
+
+      section.featured_content {
+        box-shadow: 0 16px 20px rgba(0,0,0,0.1);
+        div.content {
+          div.container {
+            div.row {
+              div.col {
+                div.title {
+                  h1 {}
+
+                  div.decor {}
+                }
+
+                p {}
+
+                a.more {
+                  width: 40%;
+                }
+
+              }
+
+              img {
+                display: none;
+              }
+            }
+          }
+        }
+
+        div.family {}
+
+        div.sign-up {
+          div.container {
+            div.row {
+              div.col {
+                div.box {
+                  div.sign-content {
+                    h1 {}
+
+                    div.newsletter {
+                      input {
+                        &:focus {}
+                      }
+
+                      button {}
+                    }
+                  }
+
+                  div.decor {}
+                }
+              }
+
+              div.right {
+                display: inline;
+                width: 100%;
+                text-align: center;
+                margin: 15px 0 0;
+                p {
+                  a {
+                    i {}
+                  }
+
+                  a.follow {
+                    &:first-of-type {}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+}

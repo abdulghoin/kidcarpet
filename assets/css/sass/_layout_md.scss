@@ -1,0 +1,242 @@
+@media (max-width: 1199px) {
+  // ==================== Global ====================
+  // h1 {
+  //   font-size: $h1;
+  // }
+  h2 {
+    font-size: 0.75 * $h2;
+  }
+  h3 {
+    font-size: 0.8 * $h3;
+  }
+  // h4 {
+  //   font-size: $h4;
+  // }
+  h5 {
+    font-size: 0.8 * $h5;
+  }
+
+  // ==================== Layout ====================
+  body {
+    header {
+      section.top {
+        font-size: 0.8 * $font-header-top;
+
+        div.container {
+          div.row {
+            div.col {
+              ul {
+                li {
+                  padding: 2px 6px 2px 8px;
+
+                  i, span {
+                    margin: 0 6px 0 0;
+                  }
+
+                  p {
+                    a {
+                      i {
+                        margin: 0 0 0 6px;
+                      }
+                    }
+                  }
+                }
+              }
+
+              a.logo {
+                img {}
+              }
+            }
+          }
+        }
+      }
+
+      section.menu {
+        font-size: 0.7 * $font-header;
+
+        ul {
+          li {
+            a {
+              padding: 30px 22px;
+            }
+          }
+
+          form {
+            input {}
+          }
+        }
+      }
+    }
+  }
+
+
+  // ==================== index ====================
+  main {
+
+    section.slides {
+      padding: 25px 0;
+      div.container {
+        div.slide {
+          div.carousel-inner {
+            div.item {
+              img {
+                width: 100%;
+                height: 620px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    section.links {
+      a {
+        font-size: 0.5 * $h4;
+      }
+
+      div.container {
+        div.row {
+
+          div.col {
+            div.inner {
+              padding: 25px 25px 0;
+
+              a.btn {
+                font-size: 0.8 * $btn-1;
+              }
+
+              span.socmed {
+                margin-top: 4px;
+
+                a {
+                  margin: 0 4px;
+                  font-size: 0.8 * $font-link-socmed;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    section.featured_collections {
+      div.container {
+        div.row {
+          div.title {
+            div.decor {
+              width: 60%;
+              margin: 0 20%;
+            }
+          }
+        }
+      }
+    }
+
+    section.featured_products {
+      div.container {
+        div.row {
+          div.title {
+            div.decor {
+              width: 60%;
+              margin: 0 20%;
+            }
+          }
+
+          div.col {
+            a {
+              div.panel {
+                div.panel-heading {
+                  height: $panel-heading;
+                }
+
+                div.panel-body {
+                  h3 {
+                    height: 75px;
+                  }
+
+                  p {
+                    height: 90px;
+                    font-size: 0.8 $p-3;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        a.btn-more {
+          width: 30%;
+          margin: 0 35% 37px;
+          font-size: 0.8 * $btn-1;
+        }
+      }
+    }
+
+    section.featured_content {
+      div.content {
+        div.container {
+          div.row {
+            position: relative;
+
+            div.col {
+              div.title {
+                h1 {}
+
+                div.decor {}
+              }
+
+              p {}
+
+              a.more {}
+
+            }
+
+            img {}
+          }
+        }
+      }
+
+      div.family {}
+
+      div.sign-up {
+        div.container {
+          div.row {
+            div.col {
+              div.box {
+                div.sign-content {
+                  h1 {
+                    font-size: 0.5 * $h1;
+                  }
+
+                  div.newsletter {
+                    input {
+                      &:focus {}
+                    }
+
+                    button {}
+                  }
+                }
+
+                div.decor {}
+              }
+            }
+
+            div.right {
+              p {
+                a {
+                  i {}
+                }
+
+                a.follow {
+                  &:first-of-type {}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}
